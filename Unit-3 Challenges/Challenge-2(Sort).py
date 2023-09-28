@@ -7,10 +7,10 @@ class Student:
         self.roll_number = roll_number
         self.cgpa = cgpa
 students_list = [
-    Student("Arun", "2022001", 2.9),
-    Student("Bala", "2022002", 3.7),
-    Student("Anitha", "2022003", 4.9),
-    Student("Chandra", "2022004", 4.7)
+    Student("Ajith", "222001", 2.9),
+    Student("Balaji", "222002", 3.7),
+    Student("Anjali", "222003", 4.9),
+    Student("Chandru", "222004", 4.7)
 ]
 sorted_students = sort_students(students_list)
 for student in sorted_students:
